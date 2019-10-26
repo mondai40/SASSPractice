@@ -1,0 +1,11 @@
+@import "variables"; 
+
+h1 {
+    @include color(blue);
+    // color:  $red;
+    .example {
+        &:hover {
+            color: yellow;
+        }
+    }
+}

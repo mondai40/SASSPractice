@@ -1,0 +1,5 @@
+$red: gold;
+
+@mixin color($color) {
+    color: $color;
+}
