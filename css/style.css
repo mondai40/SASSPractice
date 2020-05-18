@@ -1,15 +1,8 @@
-/*This is a comment with * (stay)*/
 body {
   background: pink;
 }
 body h1 {
-  text-align: center;
-}
-body h1 a {
-  text-decoration: none;
-}
-body h1 a:hover {
-  color: green;
+  font-size: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

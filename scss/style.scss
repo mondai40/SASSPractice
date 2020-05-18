@@ -1,15 +1,8 @@
-//This is //comment(disappear)
-/*This is a comment with * (stay)*/
+$baseFontSize: 16px;
 
 body {
     background: pink;
     h1 {
-        text-align: center;
-        a {
-            text-decoration: none;
-            &:hover {
-                color: green
-            }
-        }
+        font-size: $baseFontSize - 10px;
     }
 }
