@@ -1,8 +1,10 @@
-$baseFontSize: 16px;
+$baseFontSize: 46px;
+$imgDir: "../img/";
 
 body {
-    background: pink;
+    /*background-image: url($imgDir + "sushi.jpg");*/
+    background-image: url("#{$imgDir}sushi.jpg");
     h1 {
-        font-size: $baseFontSize - 10px;
+        font-size: #{2 + 8}px;
     }
 }

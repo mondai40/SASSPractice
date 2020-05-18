@@ -1,8 +1,9 @@
 body {
-  background: pink;
+  /*background-image: url($imgDir + "sushi.jpg");*/
+  background-image: url("../img/sushi.jpg");
 }
 body h1 {
-  font-size: 6px;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
