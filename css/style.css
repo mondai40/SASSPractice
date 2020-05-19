@@ -1,5 +1,17 @@
-body {
-  background-color: green;
+body .fs10 {
+  font-size: 10px;
+}
+body .fs11 {
+  font-size: 11px;
+}
+body .fs12 {
+  font-size: 12px;
+}
+body .fs13 {
+  font-size: 13px;
+}
+body .fs14 {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

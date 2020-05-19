@@ -1,11 +1,24 @@
-$x: 19;
+// body {
+//     @for $i from 10 through 14 {
+//         .fs#{$i} {
+//             font-size: #{$i}px;
+//         }
+//     }
+// }
+
+$i: 10;
 
 body {
-    @if $x >= 30 {
-        background-color: red;
-    } @else if $x >= 20 {
-        background-color: blue;
-    } @else {
-        background-color: green;
+    @while $i <= 14 {
+        .fs#{$i} {
+            font-size: #{$i}px;
+        }
+        $i: $i + 1;
     }
 }
+
+// @for $i from 10 to 14 {
+//     .fs#{$i} {
+//         font-size: #{$i}px;
+//     }
+// }
