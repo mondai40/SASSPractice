@@ -1,11 +1,8 @@
-body .cat-image {
-  background: url("../img/cat.jpg");
-}
-body .dog-image {
-  background: url("../img/dog.jpg");
-}
-body .bird-image {
-  background: url("../img/bird.jpg");
+body .box {
+  width: 333.3333333333px;
+  height: 100px;
+  background: pink;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,17 +1,15 @@
-// $animals: "cat", "dog", "bird";
+$maxWidth: 1000px;
+$columns: 3;
 
-// body {
-//     @each $animal in $animals {
-//         .#{$animal}-image {
-//             background: url("../img/#{$animal}.jpg");
-//         }
-//     }
-// }
+@function calcWidth($width, $count) {
+    @return $width / $count;
+}
 
 body {
-    @each $animal in "cat", "dog", "bird" {
-        .#{$animal}-image {
-            background: url("../img/#{$animal}.jpg");
-        }
+    .box {
+        width: calcWidth($maxWidth, $columns);
+        height: 100px;
+        background: pink;
+        display: inline-block;
     }
 }
