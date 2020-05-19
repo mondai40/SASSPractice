@@ -1,10 +1,11 @@
-$brandColor: rgba(255, 0, 0);
-$baseFontSize: 16px;
+$x: 19;
 
 body {
-    background: $brandColor;
-    h1 {
-        background: lighten($brandColor, 30%);
-        font-size: $baseFontSize;
+    @if $x >= 30 {
+        background-color: red;
+    } @else if $x >= 20 {
+        background-color: blue;
+    } @else {
+        background-color: green;
     }
 }
