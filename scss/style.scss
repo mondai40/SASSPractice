@@ -1,24 +1,17 @@
+// $animals: "cat", "dog", "bird";
+
 // body {
-//     @for $i from 10 through 14 {
-//         .fs#{$i} {
-//             font-size: #{$i}px;
+//     @each $animal in $animals {
+//         .#{$animal}-image {
+//             background: url("../img/#{$animal}.jpg");
 //         }
 //     }
 // }
 
-$i: 10;
-
 body {
-    @while $i <= 14 {
-        .fs#{$i} {
-            font-size: #{$i}px;
+    @each $animal in "cat", "dog", "bird" {
+        .#{$animal}-image {
+            background: url("../img/#{$animal}.jpg");
         }
-        $i: $i + 1;
     }
 }
-
-// @for $i from 10 to 14 {
-//     .fs#{$i} {
-//         font-size: #{$i}px;
-//     }
-// }

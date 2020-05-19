@@ -1,17 +1,11 @@
-body .fs10 {
-  font-size: 10px;
+body .cat-image {
+  background: url("../img/cat.jpg");
 }
-body .fs11 {
-  font-size: 11px;
+body .dog-image {
+  background: url("../img/dog.jpg");
 }
-body .fs12 {
-  font-size: 12px;
-}
-body .fs13 {
-  font-size: 13px;
-}
-body .fs14 {
-  font-size: 14px;
+body .bird-image {
+  background: url("../img/bird.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
