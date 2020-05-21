@@ -1,11 +1,14 @@
-@import "settings";
-@import "functions";
+@mixin circle($radius: 50px) {
+    border-radius: $radius;
+}
+
 
 body {
     .box {
-        width: calcWidth($maxWidth, $columns);
+        width: 100px;
         height: 100px;
         background: pink;
         display: inline-block;
+        @include circle(10px);
     }
 }

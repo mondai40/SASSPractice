@@ -1,8 +1,9 @@
 body .box {
-  width: 300px;
+  width: 100px;
   height: 100px;
   background: pink;
   display: inline-block;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
