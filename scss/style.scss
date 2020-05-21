@@ -2,7 +2,9 @@ $maxWidth: 1000px;
 $columns: 3;
 
 @function calcWidth($width, $count) {
-    @return $width / $count;
+    $padding: 10;
+    $columnWidth: ($width - ($padding * ($count - 1))) / $count;
+    @return $columnWidth;
 }
 
 body {
