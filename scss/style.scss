@@ -1,12 +1,5 @@
-$maxWidth: 1000px;
-$columns: 3;
-
-@function calcWidth($width, $count) {
-    $padding: 10;
-    $columnWidth: floor(($width - ($padding * ($count - 1))) / $count);
-    @debug $columnWidth;
-    @return $columnWidth;
-}
+@import "settings";
+@import "functions";
 
 body {
     .box {

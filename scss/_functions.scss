@@ -1,0 +1,5 @@
+@function calcWidth($width, $count) {
+    $columnWidth: floor(($width - ($margin * ($count - 1))) / $count);
+    @debug $columnWidth;
+    @return $columnWidth;
+}
