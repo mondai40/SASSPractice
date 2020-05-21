@@ -3,7 +3,8 @@ $columns: 3;
 
 @function calcWidth($width, $count) {
     $padding: 10;
-    $columnWidth: ($width - ($padding * ($count - 1))) / $count;
+    $columnWidth: floor(($width - ($padding * ($count - 1))) / $count);
+    @debug $columnWidth;
     @return $columnWidth;
 }
 
