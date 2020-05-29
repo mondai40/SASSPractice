@@ -1,9 +1,16 @@
-body .box {
-  width: 100px;
-  height: 100px;
-  background: pink;
-  display: inline-block;
-  border-radius: 10px;
+.msg, .warningMsg, .errorMsg {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+}
+
+.errorMsg {
+  background: red;
+}
+
+.warningMsg {
+  background: orange;
 }
 
 /*# sourceMappingURL=style.css.map */

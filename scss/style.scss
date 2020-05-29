@@ -1,14 +1,16 @@
-@mixin circle($radius: 50px) {
-    border-radius: $radius;
+.msg {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
 }
 
+.errorMsg {
+    @extend .msg;
+    background: red;
+}
 
-body {
-    .box {
-        width: 100px;
-        height: 100px;
-        background: pink;
-        display: inline-block;
-        @include circle(10px);
-    }
+.warningMsg {
+    @extend .msg;
+    background: orange;
 }
